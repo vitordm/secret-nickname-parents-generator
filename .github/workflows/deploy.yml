@@ -1,20 +1,51 @@
-name: Deploy
+name: Build GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-      - run: npm install
-      - run: npm run build
 
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build production
+        run: npm run build-prod
+
+      - name: Replace docs with production build
+        run: |
+          rm -rf docs
+          mv dist docs
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: update GitHub Pages build"
+          branch: "chore/update-github-pages"
+          delete-branch: true
+          title: "chore: update GitHub Pages build"
+          body: |
+            Automated production build for GitHub Pages.
+
+            - Runs `npm run build-prod`
+            - Replaces `docs/` with the generated `dist/`
+            - Updates the GitHub Pages production files
+          base: main
+          add-paths: |
+            docs/
