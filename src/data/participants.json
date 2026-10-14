@@ -1,0 +1,28 @@
+{
+  "participants": [
+    {
+      "id": "eduardo",
+      "displayName": "Eduardo",
+      "aliases": ["eduardo", "edu", "dudu"],
+      "words": ["VOVO", "VO"],
+      "nickname": "Vovô",
+      "participantImage": "/participants/eduardo.svg",
+      "generatedImage": "/generated/eduardo.svg",
+      "resultMessage": "Alguém muito especial terá uma nova maneira de chamar você em breve.",
+      "finalMessage": "VOCÊ VAI SER VOVÔ!",
+      "showUltrasound": true
+    },
+    {
+      "id": "leonardo",
+      "displayName": "Leonardo",
+      "aliases": ["leonardo", "leo"],
+      "words": ["TITIO", "TIO"],
+      "nickname": "Titio",
+      "participantImage": "/participants/leonardo.svg",
+      "generatedImage": "/generated/leonardo.svg",
+      "resultMessage": "Parece que alguém bem pequenininho está prestes a ganhar um tio muito especial.",
+      "finalMessage": "VOCÊ VAI SER TITIO!",
+      "showUltrasound": false
+    }
+  ]
+}

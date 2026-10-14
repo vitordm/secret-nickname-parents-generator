@@ -1,0 +1,5 @@
+.worktrees/
+worktrees/
+dist/
+node_modules/
+*.tsbuildinfo
