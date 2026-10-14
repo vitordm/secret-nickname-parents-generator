@@ -71,6 +71,30 @@
       "resultMessage": "Parece que alguém bem pequenininho está prestes a ganhar uma tia muito especial.",
       "finalMessage": "VOCÊ VAI SER TITIA!",
       "showUltrasound": false
+    },
+    {
+      "id": "bruna",
+      "displayName": "Bruna",
+      "aliases": ["bruna", "bunu", "Bruna", "buh"],
+      "words": ["TITIA", "TIA"],
+      "nickname": "Titia",
+      "participantImage": "",
+      "generatedImage": "/generated/bruna.jpeg",
+      "resultMessage": "Parece que alguém bem pequenininho está prestes a ganhar uma tia muito especial.",
+      "finalMessage": "VOCÊ VAI SER TITIA!",
+      "showUltrasound": false
+    },
+    {
+      "id": "telmo",
+      "displayName": "Telmo",
+      "aliases": ["telmo", "tel", "Telmo"],
+      "words": ["TITIO", "TIO"],
+      "nickname": "Titio",
+      "participantImage": "",
+      "generatedImage": "/generated/telmo.jpeg",
+      "resultMessage": "Parece que alguém bem pequenininho está prestes a ganhar um tio muito especial.",
+      "finalMessage": "VOCÊ VAI SER TITIO!",
+      "showUltrasound": false
     }
   ]
 }
