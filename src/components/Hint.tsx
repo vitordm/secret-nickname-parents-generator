@@ -8,6 +8,7 @@ interface HintProps {
 
 export function Hint({ participant, onRevealResult }: HintProps) {
   const [showRevealButton, setShowRevealButton] = useState(false);
+  const imageUrl = `${import.meta.env.BASE_URL}${participant.generatedImage.replace(/^\//, "")}`;
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -22,7 +23,7 @@ export function Hint({ participant, onRevealResult }: HintProps) {
       <h2 id="hint-title">Imagem de ajuda</h2>
       <p>Às vezes a pista está bem na sua frente.</p>
       <img
-        src={participant.generatedImage}
+        src={imageUrl}
         alt={`Imagem criada para ${participant.displayName}`}
         className="hint-card__image"
       />

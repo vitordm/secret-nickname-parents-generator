@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import type { Participant } from "../types/participant";
 
+const ultrasoundUrl = new URL("/ultrasound/baby.svg", import.meta.url).href;
+
 interface FinalRevealProps {
   participant: Participant;
 }
@@ -26,7 +28,7 @@ export function FinalReveal({ participant }: FinalRevealProps) {
       {phase >= 3 ? <p>Estamos esperando um bebê. ❤️</p> : null}
       {participant.showUltrasound ? (
         <figure className="final-card__figure">
-          <img src="/ultrasound/baby.svg" alt="Imagem da ultrassonografia" />
+          <img src={ultrasoundUrl} alt="Imagem da ultrassonografia" />
           <figcaption>Chegando em breve</figcaption>
         </figure>
       ) : null}
