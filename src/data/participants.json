@@ -6,11 +6,23 @@
       "aliases": ["eduardo", "edu", "dudu"],
       "words": ["VOVO", "VO"],
       "nickname": "Vovô",
-      "participantImage": "/participants/eduardo.svg",
-      "generatedImage": "/generated/eduardo.svg",
+      "participantImage": "",
+      "generatedImage": "/generated/eduardo.jpeg",
       "resultMessage": "Alguém muito especial terá uma nova maneira de chamar você em breve.",
       "finalMessage": "VOCÊ VAI SER VOVÔ!",
-      "showUltrasound": true
+      "showUltrasound": false
+    },
+    {
+      "id": "patricia",
+      "displayName": "Patrícia",
+      "aliases": ["patricia", "paty", "Patrícia"],
+      "words": ["VOVO", "VO"],
+      "nickname": "Vovó",
+      "participantImage": "",
+      "generatedImage": "/generated/patricia.jpeg",
+      "resultMessage": "Alguém muito especial terá uma nova maneira de chamar você em breve.",
+      "finalMessage": "VOCÊ VAI SER VOVÓ!",
+      "showUltrasound": false
     },
     {
       "id": "leonardo",
@@ -18,10 +30,46 @@
       "aliases": ["leonardo", "leo"],
       "words": ["TITIO", "TIO"],
       "nickname": "Titio",
-      "participantImage": "/participants/leonardo.svg",
-      "generatedImage": "/generated/leonardo.svg",
+      "participantImage": "/participants/leonardo.jpeg",
+      "generatedImage": "/generated/leonardo.jpeg",
       "resultMessage": "Parece que alguém bem pequenininho está prestes a ganhar um tio muito especial.",
       "finalMessage": "VOCÊ VAI SER TITIO!",
+      "showUltrasound": false
+    },
+    {
+      "id": "gabriela",
+      "displayName": "Gabriela",
+      "aliases": ["gabriela", "gabi", "gaby"],
+      "words": ["TITIA", "TIA"],
+      "nickname": "Titia",
+      "participantImage": "",
+      "generatedImage": "/generated/gabriela.jpeg",
+      "resultMessage": "Parece que alguém bem pequenininho está prestes a ganhar um tio muito especial.",
+      "finalMessage": "VOCÊ VAI SER TITIA!",
+      "showUltrasound": false
+    },
+    {
+      "id": "solange",
+      "displayName": "Solange",
+      "aliases": ["solange", "sol", "Solange"],
+      "words": ["VOVO", "VO"],
+      "nickname": "Vovó",
+      "participantImage": "",
+      "generatedImage": "/generated/solange.jpeg",
+      "resultMessage": "Alguém muito especial terá uma nova maneira de chamar você em breve.",
+      "finalMessage": "VOCÊ VAI SER VOVÓ!",
+      "showUltrasound": false
+    },
+    {
+      "id": "isabela",
+      "displayName": "Isabela",
+      "aliases": ["isabela", "bela", "Isabela"],
+      "words": ["TITIA", "TIA"],
+      "nickname": "Titia",
+      "participantImage": "",
+      "generatedImage": "/generated/isabela.jpeg",
+      "resultMessage": "Parece que alguém bem pequenininho está prestes a ganhar um tio muito especial.",
+      "finalMessage": "VOCÊ VAI SER TITIA!",
       "showUltrasound": false
     }
   ]
