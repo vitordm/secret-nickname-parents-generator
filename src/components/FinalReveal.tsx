@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import type { Participant } from "../types/participant";
 
-const ultrasoundUrl = new URL("/ultrasound/baby.svg", import.meta.url).href;
+//const ultrasoundUrl = new URL("/ultrasound/baby.svg", import.meta.url).href;
+const ultrasoundUrl = new URL("/ultrasound/couple.jpg", import.meta.url).href;
 
 interface FinalRevealProps {
   participant: Participant;
